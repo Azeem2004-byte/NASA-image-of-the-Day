@@ -1,0 +1,89 @@
+       
+       *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+       }
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            /* margin: 20px; */
+            background-color: #f4f4f4;
+        }
+      
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            background: #000;
+            color: white;
+            margin-bottom: 30px;
+        }
+        .header img {
+            height: 50px;
+            
+        }
+        .date-icon {
+            background: none;
+            border: none;
+            cursor: pointer;
+            color: white;
+            font-size: 20px;
+        }
+        #date-picker {
+            display: none;
+        }
+    
+        .container {
+            margin-top: 20px;
+            
+            max-width: 700px;
+            margin: auto;
+            background: rgb(255, 255, 255);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            background: #000;
+            color: white;
+        }
+        .header img {
+            height: 50px;
+            justify-content: space-between;
+        }
+        img {
+            padding-top: 10px;
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        button {
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: #313335;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #060607;
+        }
+        input {
+            margin-top: 10px;
+            padding: 10px;
+            width: 100%;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .footer {
+            margin-top: 20px;
+            padding: 10px;
+            background: #000;
+            color: white;
+        }

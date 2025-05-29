@@ -1,0 +1,31 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>NASA Image of the Day</title>
+    
+</head>
+<body>
+    <div class="header">
+        <img src="./logo.jpg" alt="NASA Logo">
+        <button class="date-icon" onclick="document.getElementById('date-picker').showPicker()">📅</button>
+        <input type="date" id="date-picker">
+    </div>
+    <div class="container">
+        <h1>NASA Image of the Day</h1>
+        <button onclick="fetchNasaImage()">Get Image</button>
+        <img id="nasa-image" src="./logo.jpg" alt="NASA Image of the Day">
+        <h2 id="title"></h2>
+        <p id="date"></p>
+        <p id="explanation"></p>
+    </div>
+    <div class="footer">
+        <p>&copy; 2025 NASA Image Viewer. All rights reserved.</p>
+    </div>
+   <script src="./script.js"></script>
+</body>
+</html>
